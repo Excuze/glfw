@@ -7,8 +7,8 @@ project "GLFW"
 	staticruntime "off"
 	warnings "off"
 
-	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+	targetdir ("bin/" .. output_classifier .. "/%{prj.name}")
+	objdir ("bin-int/" .. output_classifier .. "/%{prj.name}")
 
 	files
 	{
